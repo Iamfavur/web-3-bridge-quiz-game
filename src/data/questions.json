@@ -29,12 +29,129 @@
     "id": "q4",
     "question": "What is the smallest unit of memory?",
     "options": ["Bit", "Byte", "Kilobyte", "Nibble"],
-    "answer": 0
+    "answer": 0,
+    "time": 8
   },
   {
     "id": "q5",
     "question": "Which protocol is used to load web pages?",
     "options": ["FTP", "SMTP", "HTTP", "SSH"],
-    "answer": 2
+    "answer": 2,
+    "time": 10
+  },
+  {
+    "id": "q6",
+    "question": "Which HTML tag is used to define an unordered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<list>"],
+    "answer": 1,
+    "time": 12
+  },
+  {
+    "id": "q7",
+    "question": "Which of these is a JavaScript framework?",
+    "options": ["Django", "Laravel", "Angular", "Rails"],
+    "answer": 2,
+    "time": 12
+  },
+  {
+    "id": "q8",
+    "question": "What does 'API' stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Applied Performance Index",
+      "Automated Process Integration",
+      "Advanced Program Interaction"
+    ],
+    "answer": 0,
+    "time": 15
+  },
+  {
+    "id": "q9",
+    "question": "Which of the following is not a CSS preprocessor?",
+    "options": ["Sass", "Less", "Stylus", "Babel"],
+    "answer": 3,
+    "time": 12
+  },
+  {
+    "id": "q10",
+    "question": "Which keyword declares a constant in JavaScript?",
+    "options": ["let", "const", "var", "static"],
+    "answer": 1,
+    "time": 10
+  },
+  {
+    "id": "q11",
+    "question": "Which HTTP status code means 'Not Found'?",
+    "options": ["200", "301", "404", "500"],
+    "answer": 2,
+    "time": 10
+  },
+  {
+    "id": "q12",
+    "question": "Which tool is commonly used for package management in Node.js?",
+    "options": ["pip", "npm", "composer", "gem"],
+    "answer": 1,
+    "time": 12
+  },
+  {
+    "id": "q13",
+    "question": "Which data structure uses LIFO ordering?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "answer": 1,
+    "time": 14
+  },
+  {
+    "id": "q14",
+    "question": "Which SQL statement is used to retrieve data?",
+    "options": ["INSERT", "UPDATE", "DELETE", "SELECT"],
+    "answer": 3,
+    "time": 12
+  },
+  {
+    "id": "q15",
+    "question": "What does JSON stand for?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Standard Output Notation",
+      "Joint Script Object Notation",
+      "JavaScript Open Network"
+    ],
+    "answer": 0,
+    "time": 12
+  },
+  {
+    "id": "q16",
+    "question": "Which CSS property controls layout direction?",
+    "options": ["display", "flex-direction", "position", "float"],
+    "answer": 1,
+    "time": 12
+  },
+  {
+    "id": "q17",
+    "question": "Which operator is used for strict equality in JS?",
+    "options": ["=", "==", "===", "!=="],
+    "answer": 2,
+    "time": 10
+  },
+  {
+    "id": "q18",
+    "question": "Which of these is a NoSQL database?",
+    "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+    "answer": 2,
+    "time": 14
+  },
+  {
+    "id": "q19",
+    "question": "What does 'HTTPs' add to HTTP?",
+    "options": ["Caching", "Compression", "Security via TLS", "Faster routing"],
+    "answer": 2,
+    "time": 12
+  },
+  {
+    "id": "q20",
+    "question": "Which tool bundles JavaScript for production?",
+    "options": ["Babel", "ESLint", "Vite/Rollup/Webpack", "Prettier"],
+    "answer": 2,
+    "time": 15
   }
 ]

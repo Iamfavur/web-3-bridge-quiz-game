@@ -9,9 +9,10 @@ type Props = {
   onSelect: (index: number) => void
   feedback: boolean | null
   disabled?: boolean
+  selectedIndex?: number | null
 }
 
-export default function QuestionCard({ question, onSelect, feedback, disabled }: Props) {
+export default function QuestionCard({ question, onSelect, feedback, disabled, selectedIndex }: Props) {
   if (!question || !Array.isArray(question.options) || question.options.length === 0) {
     return (
       <div className="card error">
@@ -26,8 +27,8 @@ export default function QuestionCard({ question, onSelect, feedback, disabled }:
       <h3 className="question-text">{question.question}</h3>
       <div className="options">
         {question.options.map((opt, idx) => {
-          const isCorrect = feedback === true && idx === question.answer
-          const isWrongSelected = feedback === false && idx === question.answer // show correct when wrong
+          const isCorrect = feedback !== null && idx === question.answer
+          const isWrongSelected = feedback === false && selectedIndex === idx
           return (
             <button
               key={idx}
@@ -35,7 +36,7 @@ export default function QuestionCard({ question, onSelect, feedback, disabled }:
                 'option-btn',
                 disabled ? 'disabled' : '',
                 isCorrect ? 'correct' : '',
-                isWrongSelected ? 'correct' : '',
+                isWrongSelected ? 'wrong' : '',
               ].join(' ')}
               onClick={() => !disabled && onSelect(idx)}
               disabled={disabled}
