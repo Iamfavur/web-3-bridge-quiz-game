@@ -91,7 +91,8 @@ export default function Quiz() {
     }, FEEDBACK_MS)
   }
 
-  function advance(didAnswer: boolean) {
+  function advance(answered: boolean) {
+    console.log('advance', answered) 
     setLastWasCorrect(null)
     const next = current + 1
     if (next >= questions.length) {
