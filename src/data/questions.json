@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q1",
+    "question": "Which language runs in a web browser?",
+    "options": ["Java", "C", "Python", "JavaScript"],
+    "answer": 3,
+    "time": 12
+  },
+  {
+    "id": "q2",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Colorful Style Sheets"
+    ],
+    "answer": 1,
+    "time": 20
+  },
+  {
+    "id": "q3",
+    "question": "Which company developed React?",
+    "options": ["Google", "Facebook", "Microsoft", "Apple"],
+    "answer": 1,
+    "time": 10
+  },
+  {
+    "id": "q4",
+    "question": "What is the smallest unit of memory?",
+    "options": ["Bit", "Byte", "Kilobyte", "Nibble"],
+    "answer": 0
+  },
+  {
+    "id": "q5",
+    "question": "Which protocol is used to load web pages?",
+    "options": ["FTP", "SMTP", "HTTP", "SSH"],
+    "answer": 2
+  }
+]
